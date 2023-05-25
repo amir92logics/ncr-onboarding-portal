@@ -1,0 +1,53 @@
+{
+    "name": "ncr-portal",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": " next dev",
+        "build": "next build",
+        "build:staging": "cp ./.env.staging ./.env && next build",
+        "build:prod": "cp ./.env.prod ./.env && next build",
+        "build:dev": "cp ./.env.dev ./.env && next build",
+        "cypress:test": "npx cypress open",
+        "cypress:cloud": "npx cypress run --record --key 76dd4a88-c6b3-4e74-a889-d45daf4c1049",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.10.0",
+        "@emotion/server": "^11.10.0",
+        "@emotion/styled": "^11.10.0",
+        "@mui/icons-material": "^5.10.2",
+        "@mui/lab": "^5.0.0-alpha.96",
+        "@mui/material": "^5.10.2",
+        "@mui/styles": "^5.10.2",
+        "@mui/x-date-pickers": "^5.0.0-beta.2",
+        "@reduxjs/toolkit": "^1.8.2",
+        "axios": "^0.27.2",
+        "cypress": "^12.3.0",
+        "date-fns": "latest",
+        "dayjs": "latest",
+        "element-size": "^1.1.1",
+        "jwt-decode": "^3.1.2",
+        "moment": "^2.29.4",
+        "moment-timezone": "^0.5.37",
+        "next": "12.3.2",
+        "prettier": "^2.7.1",
+        "react": "^18.2.0",
+        "react-calendar": "^3.9.0",
+        "react-dom": "^18.2.0",
+        "react-phone-number-input": "^3.2.16",
+        "react-redux": "^8.0.2",
+        "react-signature-canvas": "^1.0.6",
+        "redux-persist": "^6.0.0",
+        "swiper": "^8.3.2",
+        "use-element-size": "^1.2.2",
+        "zipyai": "^1.3.14"
+    },
+    "devDependencies": {
+        "cypress-downloadfile": "^1.2.3",
+        "cypress-file-upload": "^5.0.8",
+        "eslint": "8.22.0",
+        "eslint-config-next": "12.2.5"
+    }
+}

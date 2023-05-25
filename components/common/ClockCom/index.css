@@ -1,0 +1,96 @@
+:root {
+    --main: #1d4ed8;
+}
+.css-134p14k-MuiTypography-root.Mui-selected {
+    color: var(--main) !important;
+}
+.css-134p14k-MuiTypography-root {
+    font-weight: 400 !important;
+    font-size: 56px !important;
+    line-height: 56px !important;
+    color: var(--main) !important;
+}
+.css-1vl3zdt-MuiTypography-root-MuiTimePickerToolbar-separator {
+    color: #b3b3b5 !important;
+    font-weight: 400 !important;
+}
+.css-ihhycx-MuiTimePickerToolbar-amPmSelection .MuiTimePickerToolbar-ampmLabel {
+    font-size: 16px !important;
+    color: #b3b3b5 !important;
+    /* line-height: 16px !; */
+    font-weight: 500 !important;
+}
+.css-m7qt-MuiTypography-root.Mui-selected {
+    color: var(--main) !important;
+}
+.css-scgzap-MuiButtonBase-root-MuiButton-root:hover {
+    border: 1px solid var(--main) !important;
+    border-radius: 4px !important;
+    background-color: transparent !important;
+    color: var(--main) !important;
+}
+.css-scgzap-MuiButtonBase-root-MuiButton-root {
+    border: 1px solid transparent !important;
+}
+.css-hq2kpw-MuiGrid-root-MuiPickersToolbar-content {
+    max-width: 280px !important;
+}
+.MuiPickersToolbar-root
+    .MuiTimePickerToolbar-root
+    .css-88nwcr-MuiPickersToolbar-root-MuiTimePickerToolbar-root {
+    display: flex !important;
+    align-items: center;
+}
+.clock
+    > .MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root
+    > .MuiFilledInput-root.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.MuiInputBase-adornedEnd.css-8zp4fw-MuiInputBase-root-MuiFilledInput-root
+    > input {
+    padding-top: 14px !important;
+    padding-bottom: 12px !important;
+}
+.clock
+    > .MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root
+    > .MuiFilledInput-root.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.MuiInputBase-adornedEnd.css-8zp4fw-MuiInputBase-root-MuiFilledInput-root
+    > .MuiInputAdornment-root.MuiInputAdornment-positionEnd.MuiInputAdornment-filled.MuiInputAdornment-sizeMedium.css-jv61v3-MuiInputAdornment-root
+    > button {
+    pointer-events: none;
+}
+.clock
+    > .MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root
+    > .MuiFilledInput-root.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.MuiInputBase-adornedEnd.css-8zp4fw-MuiInputBase-root-MuiFilledInput-root
+    > .MuiInputAdornment-root.MuiInputAdornment-positionEnd.MuiInputAdornment-filled.MuiInputAdornment-sizeMedium.css-jv61v3-MuiInputAdornment-root {
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.css-hlj6pa-MuiDialogActions-root {
+    justify-content: center !important;
+}
+.css-ahhumg-MuiButtonBase-root-MuiIconButton-root-MuiPickersToolbar-penIconButton {
+    display: flex !important;
+    align-items: center !important;
+    height: 100% !important;
+    pointer-events: none !important;
+}
+.css-xelq0e-MuiPickerStaticWrapper-content {
+    overflow: hidden !important;
+}
+.hide-clock {
+    opacity: 0;
+    pointer-events: none;
+    z-index: 0;
+    width: 0px;
+}
+.show-clock {
+    /* opacity: 1; */
+    pointer-events: all;
+    z-index: 50;
+}
+.css-epd502 {
+    width: auto !important;
+}
+
+.box-shadow {
+    box-shadow: 0px 0px 0px 1px #bdbdbd !important;
+    color: black !important;
+}
